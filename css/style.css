@@ -1,0 +1,95 @@
+main {
+	padding: 10px;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+label {
+	font-weight: bold;
+}
+
+div {
+	padding-bottom: 4px;
+}
+
+.campoTexto {
+	width: 100%;
+	padding: 8px 8px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border-color: silver;
+	border-radius: 4px;
+}
+
+h2 {
+	background-color: silver;
+	color: black;
+    border-bottom: black thin ridge;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.botao {
+	background-color: silver;
+	color: black;
+    border: ridge 1px black;
+	text-align: center;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 100px;
+	display: block;
+}
+
+.painel {
+	margin-right: 10px;
+	border-width: thin;
+	border-style: ridge;
+	border-color: black;
+	flex-grow: 1;
+	border-radius: 8px;
+	max-width: 500px;
+    box-shadow: 10px 5px 5px rgb(144, 144, 153);
+    background-image: url("/assets/fundo.jpg");
+}
+
+.conteudo-painel {
+	padding: 15px;
+}
+
+.sucesso {
+	padding: 10px;
+	border-collapse: collapse;
+	border-style: ridge;
+	border-color: #DFF0D8;
+	background-color: #DFF0D8;
+	color: #3C763D;
+
+}
+
+.erro {
+	padding: 10px;
+	flex-grow: 1;
+	background-color: #F2DEDE;
+	color: #A94442;
+    border: ridge 1px black;
+	font-weight: bold;
+}
+b {
+    color: #113657;
+}
+@media (max-width: 600px){
+    
+    main{
+        display: block;
+        }
+    .painel{
+        margin-top: 7%;
+    }
+        
+    }
